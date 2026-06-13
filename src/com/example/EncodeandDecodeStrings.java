@@ -31,7 +31,7 @@ import java.util.List;
 
 //     public static List<String> decode(String str) {
 //         // check if str is empty, return emty arrr
-//         if (str.isEmpty())
+//         if (str.isEmpty())đ:;:
 //             return new ArrayList<>();
 //         // loop to decode
 //         List<String> decode = new ArrayList<>();
@@ -53,17 +53,12 @@ import java.util.List;
 //         return decode;
 //     }
 
-public class EncodeandDecodeStrings {
-    public static String encode(List<String> strs) {
         // check if list empty, return empty strs
         if (strs.isEmpty())
             return "";
-        // loop to encode
-        String encode = "";
+        // loop to  ggg gencode
         for (String str : strs) {
             encode += str.length() + ",";
-        }
-        encode += "#";
         for (String str : strs) {
             encode += str;
         }
@@ -111,8 +106,11 @@ public class EncodeandDecodeStrings {
                 l.add(s);
                 s="";
             }
-
+solution
         }
         return decode;
     }
 }
+
+
+System.out.println();
